@@ -2,6 +2,7 @@ header {
     background-color: #293f50;
     color: white;
     padding: 30px;
+    width: 94%;
 }
 p{
     text-align: center;
@@ -30,7 +31,7 @@ p{
 }
 
 img {
-    width: 200px;
+    width: 300px;
 }
 
 .button {
@@ -38,5 +39,17 @@ img {
     height: 50px;
     background-color: #293f50;
     color: white;
-    border-radius: 5px
+    border-radius: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #293f50;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 50px;
+    color: white;
 }
