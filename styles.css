@@ -8,10 +8,12 @@ p{
 }
 
 .navbar {
-    display: inline-block;
+    float: right;
 }
 .head-title {
     font-family: 'Lato';
+    width: 50%;
+    display: inline-block;
 }
 .navbar > ul {
     list-style: none;
