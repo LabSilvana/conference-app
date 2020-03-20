@@ -1,7 +1,40 @@
+header {
+    background-color: #293f50;
+    color: white;
+    padding: 30px;
+}
+p{
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+}
+.head-title {
+    font-family: 'Lato';
+}
 .navbar > ul {
     list-style: none;
+    float: right;
 }
 .navbar > ul > li {
     float: left;
     margin: 8px;
+}
+
+.main-image {
+    float: left;
+    margin: 50px;
+}
+
+img {
+    width: 200px;
+}
+
+.button {
+    text-align: center;
+    height: 50px;
+    background-color: #293f50;
+    color: white;
+    border-radius: 5px
 }
