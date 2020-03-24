@@ -10,6 +10,15 @@ header {
 
 .date {
     float: right;
+    color: #648880;
+}
+
+.title-green {
+    width: 19%;
+    display: inline-block;
+    border-top: 3px solid;
+    margin-top: -30px;
+    color: #648880;
 }
 
 .head-menu {
@@ -23,10 +32,12 @@ header {
 
 .presentation-home {
     text-align: center;
+    color: #648880;
 }
 
 .information-home {
     text-align: center;
+    color: #dee0e2;
 }
 
 .head-text {
@@ -37,10 +48,12 @@ header {
     font-family: 'Lato';
     width: 50%;
     display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
 }
 .head-title > a {
-    text-decoration:  none;
-    color: white;
+    text-decoration: none;
+    color: #dee0e2;
 }
 .button-home {
     text-align: center;
@@ -52,8 +65,22 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.button-home > a {
+    text-decoration: none;
+}
+
+.button-home:hover {
+    background-color: white;
+    color: #648880;
+}
+
 .navbar {
     float: right; 
+}
+
+.navbar > ul > li > a:hover {
+    color: #648880;
 }
 .navbar > ul {
     list-style: none;
@@ -79,6 +106,19 @@ header {
     width: 300px;
 }
 
+.img-title > a {
+    color: #648880;
+    text-decoration: none;
+}
+
+.title {
+    color: #a9b2b9
+}
+
+.text {
+    color: #8C8C8C;
+}
+
 .footer {
     background-color: #293f50;
     bottom: 0;
@@ -99,16 +139,34 @@ header {
 /*Section speakers*/
 .presentation {
     text-align: center;
+    color: #999f97;
 }
 
 .presentation-speakers {
     text-align: center;
+    color: #648880
 }
 
 .speakers {
     display: inline-block;
     width: 50%;
     padding: 100px;
+}
+
+.presentation-1 {
+    color: #8C8C8C
+}
+
+.description {
+    color: #8C8C8C
+}
+
+.description-presentation {
+    padding: 15px;
+}
+
+.name-speakers {
+    color: #648880;
 }
 .information-conference {
     display: inline-block
@@ -137,6 +195,7 @@ table {
     text-align: center;
     border-collapse: collapse;
     margin: 50px 20px 20px 20px;
+    color: #8C8C8C;
  }
  caption, td, th {
     padding: 1.3em;
@@ -152,10 +211,15 @@ table {
  td:first-child {
     border-bottom: none;
   }
+
+  .activities {
+      color: #648880
+  }
 /*Section venue*/
   .address {
       padding: 50px;
       display: inline-block;
+      color: #8C8C8C
   }
 
   .map {
@@ -167,9 +231,18 @@ table {
   .map-theatre {
       margin-bottom: 70px;
   }
+
+  .place {
+      color: #648880
+  }
 /*Section register*/
+
+  .conference-pass {
+    color: #8C8C8C;
+}
   .attend {
     list-style-type: square;
+    color: #8C8C8C;
 }
   .purchase-conference {
     width: 50%;
@@ -181,5 +254,22 @@ table {
     float: right;
     padding: 25px;
     margin-right: 130px;
+    color: #8C8C8C;
+  }
+
+  .register-information {
+    color: #648880;
+  }
+
+  .data {
+      color: #648880;
+  }
+
+  .button-purchase {
+      background-color: #648880;
+      color: white;
+      height: 28px;
+      border-radius: 5px;
+      margin-top: 15px;
   }
 
