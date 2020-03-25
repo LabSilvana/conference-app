@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Styles Conference</title>
 </head>
@@ -34,7 +35,7 @@
             </div>
         </div>
     </header>
-    <div>
+    <div class="container">
         <div class="purchase-conference">
             <h2 class="register-information">Purchase a Conference Pass</h2>
             <h4 class="register-information">$99 PER PASS</h4>
@@ -53,16 +54,24 @@
             </ul>
         </div>
         <div class="information-pass">
-            <h4 class="data">Name</h4>
-            <input type="text" name="name">
-            <h4 class="data">Email</h4>
-            <input type="email" name="email" required>
-            <h4 class="data">Number of Passes</h4>
-            <input id="number" type="number">
-            <h4 class="data">Comments</h4>
-            <textarea id="wph" name="comment" cols="17" rows="5"></textarea>
-            <br>
-            <input type="button" class="button-purchase" value="PURCHASE">
+            <form action="https://formspree.io/moqlrvpd" method="POST">
+                <h4 class="data">Name</h4>
+                <input class="register-data" type="text" name="name" placeholder="Full name">
+                <h4 class="data">Email</h4>
+                <input class="register-data" type="email" name="email" placeholder="Email address" required>
+                <h4 class="data">Number of Passes</h4>
+                <select id="number" class="number">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                <h4 class="data">Comments</h4>
+                <textarea class="comment" id="wph" name="comment" cols="47" rows="5"></textarea>
+                <br>
+                <input type="hidden" name="source" value="Silvana">
+                <input type="submit" class="button-purchase" value="PURCHASE">
+            </form>
         </div>
     </div>
     <footer class="footer">

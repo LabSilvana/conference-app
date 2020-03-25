@@ -11,6 +11,9 @@ header {
 .date {
     float: right;
     color: #648880;
+    font-size: 25px;
+    font-family: lato;
+    margin-right: 42px;
 }
 
 .title-green {
@@ -22,7 +25,7 @@ header {
 }
 
 .head-menu {
-    height: 130px;
+    height: 80px;
     padding: 30px;
 }
 
@@ -33,11 +36,13 @@ header {
 .presentation-home {
     text-align: center;
     color: #648880;
+    font-family: 'Lato';
 }
 
 .information-home {
     text-align: center;
     color: #dee0e2;
+    font-family: 'Lato';
 }
 
 .head-text {
@@ -76,7 +81,8 @@ header {
 }
 
 .navbar {
-    float: right; 
+    float: right;
+    font-family: 'Lato';
 }
 
 .navbar > ul > li > a:hover {
@@ -102,6 +108,14 @@ header {
     display: inline-block;
     width: 100%;
 } 
+
+.home-information {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    padding: 40px;
+}
+
 .home-img {
     width: 300px;
 }
@@ -109,14 +123,17 @@ header {
 .img-title > a {
     color: #648880;
     text-decoration: none;
+    font-family: 'Lato';
 }
 
 .title {
-    color: #a9b2b9
+    color: #a9b2b9;
+    font-family: 'Lato';
 }
 
 .text {
     color: #8C8C8C;
+    font-family: 'Lato';
 }
 
 .footer {
@@ -140,11 +157,13 @@ header {
 .presentation {
     text-align: center;
     color: #999f97;
+    font-family: 'Lato';
 }
 
 .presentation-speakers {
     text-align: center;
-    color: #648880
+    color: #648880;
+    font-family: 'Lato';
 }
 
 .speakers {
@@ -154,11 +173,13 @@ header {
 }
 
 .presentation-1 {
-    color: #8C8C8C
+    color: #8C8C8C;
+    font-family: 'Lato';
 }
 
 .description {
-    color: #8C8C8C
+    color: #8C8C8C;
+    font-family: 'Lato';
 }
 
 .description-presentation {
@@ -167,6 +188,7 @@ header {
 
 .name-speakers {
     color: #648880;
+    font-family: 'Lato';
 }
 .information-conference {
     display: inline-block
@@ -178,18 +200,22 @@ header {
 
 .img-conference {
     text-align: center;
+    border: 1px solid;
+}
 
+.representation {
+    top: -3rem;
+    position: relative;
 }
 
 .img-conference > img {
     border-radius: 50%;
     width: 45%;
 }
-
-.box-information {
-    border: 1px solid;
-}
 /*Section schedules*/
+.workshops {
+    width: 90%;
+}
 table {
     width: 100%;
     text-align: center;
@@ -210,21 +236,35 @@ table {
 
  td:first-child {
     border-bottom: none;
+    text-align: right;
   }
 
+  tr:nth-child(odd) {
+      text-align: left;
+  }
+
+  tr:nth-child(even) {
+      text-align: left;
+  }
+
+  .none {
+      border-bottom: none;
+  }
   .activities {
       color: #648880
   }
+
 /*Section venue*/
   .address {
       padding: 50px;
       display: inline-block;
-      color: #8C8C8C
+      color: #8C8C8C;
+      margin-left: 100px;
   }
 
   .map {
     float: right;
-    padding: 60px;
+    padding: 15px;
     margin-right: 200px;
   }
 
@@ -233,7 +273,12 @@ table {
   }
 
   .place {
-      color: #648880
+      color: #648880;
+  }
+
+  .place-hotel {
+    color: #648880;
+    margin-top: 90px;
   }
 /*Section register*/
 
@@ -248,13 +293,37 @@ table {
     width: 50%;
     display: inline-block;
     padding: 60px;
+    margin-left: 20px;
   }
 
   .information-pass {
+    width: 25%;
     float: right;
     padding: 25px;
     margin-right: 130px;
     color: #8C8C8C;
+  }
+
+  .register-data {
+    width:250px;
+    height: 30px;
+	border:1px solid #cfcfcf;
+	border-radius:5px;
+    display:inline-block;
+    font-size: 15px;
+    color: #f2f2f2;
+    font-family: 'Lato';
+  }
+
+  .number {
+    width: 60px;
+    height: 30px;
+  }
+
+  .comment {
+    border:1px solid #cfcfcf;
+	border-radius:5px;
+    display:inline-block; 
   }
 
   .register-information {
@@ -268,8 +337,9 @@ table {
   .button-purchase {
       background-color: #648880;
       color: white;
-      height: 28px;
+      height: 40px;
+      width: 120px;
       border-radius: 5px;
       margin-top: 15px;
   }
-
+ 
