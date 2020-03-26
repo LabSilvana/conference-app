@@ -37,12 +37,14 @@ header {
     text-align: center;
     color: #648880;
     font-family: 'Lato';
+    letter-spacing: 1px;
 }
 
 .information-home {
     text-align: center;
     color: #dee0e2;
     font-family: 'Lato';
+    letter-spacing: 1px;
 }
 
 .head-text {
@@ -71,13 +73,13 @@ header {
     margin-right: auto;
 }
 
-.button-home > a {
-    text-decoration: none;
-}
-
 .button-home:hover {
     background-color: white;
     color: #648880;
+}
+
+.button-link {
+    text-decoration: none;
 }
 
 .navbar {
@@ -152,6 +154,7 @@ header {
     margin: 0;
     float: left;
     padding: 20px;
+    font-family: 'Lato';
 }
 /*Section speakers*/
 .presentation {
@@ -167,9 +170,10 @@ header {
 }
 
 .speakers {
+    margin-left: 125px;
     display: inline-block;
     width: 50%;
-    padding: 100px;
+    padding: 25px;
 }
 
 .presentation-1 {
@@ -200,7 +204,18 @@ header {
 
 .img-conference {
     text-align: center;
-    border: 1px solid;
+    border: 1px solid #8C8C8C;
+    margin-top: 125px;
+    border-radius: 5px;
+    margin-right: 158px;
+    display: inline-block;
+}
+
+.links-conference {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #8C8C8C;
 }
 
 .representation {
